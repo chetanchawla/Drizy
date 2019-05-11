@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/continueS"
+    android:onClick="moveOn"
+    android:layout_above="@+id/button9"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="68dp"
+    android:background="@drawable/button_lelo"
+    android:textColor="#204265"
+
+    android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="delete"
+        android:text="Sign-in with a different device"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/button_lelo"
+        android:textColor="#204265"
+
+        android:textStyle="bold"/>
+</RelativeLayout>

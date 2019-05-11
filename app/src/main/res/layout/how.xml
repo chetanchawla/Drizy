@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="How to use the app?"
+            android:textColor="#204265"
+            android:textSize="40dp"
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="For users who have the Drizy System"
+
+
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">Press the 'with system' button on the selection menu.\n
+>Then you have to enter the name of your Drizy system. The name is written on the backside of Raspberry Pi\n
+>This name idnetifies you uniquely among the vehices\n
+>After that, you are good to go. The predictive system will warn you through the Raspberry pi buzzer sounds whenever it predicts a collison or whenever you are overspeeding.\n
+>Don't forget to exit the database before quitting the app"
+            android:background="#204265"
+            android:textColor="#FFF"
+
+            android:textSize="20dp"
+
+
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="For users who don't have the Drizy System"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp"
+
+            android:layout_marginTop="80dp" />
+        <TextView
+            android:background="#204265"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">Press the 'Without system' button on the selection menu.\n
+>It takes the MAC address of your lhone automatically to identify you uniquely.\n
+>It shows any Over-speeding or collision alert in the black bar\n
+>By default, it speaks out the alerts to you in english. If you want to change the mode of warning, press the 'Change alert mode' button which instructs about the tones of alerts it will give now.\n
+>Don't forget to exit the database before quitting the app"
+            android:textColor="#FFF"
+
+            android:textSize="20dp"
+
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>
