@@ -7,6 +7,7 @@ The app is built for android devices.The application has been tested for uses in
 Please cite the following Poster Research Work if you use this work in any of your proceedings. 
  BibTeX | EndNote | ACM Ref
 
+```
 @inproceedings{Garg:2017:PDC:3117811.3131255,
  author = {Garg, Nakul and Janveja, Ishani and Malhotra, Divyansh and Chawla, Chetan and Gupta, Pulkit and Bansal, Harshil and Chowdhery, Aakanksha and Mukherjee, Prerana and Lall, Brejesh},
  title = {Poster: DRIZY: Collaborative Driver Assistance Over Wireless Networks},
@@ -24,4 +25,3 @@ Please cite the following Poster Research Work if you use this work in any of yo
  address = {New York, NY, USA},
  keywords = {HOG+SVM sliding-window optimization, driver assistance system, edge computing, pedestrian detection, vehicle-to-cloud communication},
 } 
-
